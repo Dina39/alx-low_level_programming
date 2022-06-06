@@ -8,17 +8,15 @@
 */
 int main(void)
 {
-char d = '0';
-while (d <= '9')
+int n;
+char ch;
+for (n = 48; n < 58; n++)
 {
-putchar(d);
-d++;
+putchar(n);
 }
-char c = 'a';
-while (c <= 'f')
+for (ch = 'a'; ch <= 'f'; ch++)
 {
-putchar(c);
-c++;
+putchar(ch);
 }
 putchar('\n');
 return (0);
