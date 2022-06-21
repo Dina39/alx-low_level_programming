@@ -5,7 +5,7 @@
 * @haystack: main str to be examined
 * Return: return 0
 */
-char  *_strstr(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 char *str1, *str2; /*Declaring variables*/
 while (*haystack != '\0')
