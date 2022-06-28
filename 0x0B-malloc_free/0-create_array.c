@@ -6,10 +6,6 @@
 *@c: char
 *Return: pointer
 */
-int main(void)
-{
-int size, i;
-}
 char *create_array(unsigned int size, char c)
 {
 char *buffer;
