@@ -16,6 +16,7 @@ return (NULL);
 for (len = 0; src[len] != '\0'; len++)
 ptr = malloc(sizeof(char) * (len + 1));
 if (ptr == NULL)
+;
 {
 return (NULL);
 }
